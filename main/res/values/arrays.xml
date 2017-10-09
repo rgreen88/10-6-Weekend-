@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genre">Genre
+
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Casual</item>
+        <item>Massively Multiplayer Online</item>
+        <item>MOBA</item>
+        <item>Puzzles</item>
+        <item>Role Playing</item>
+        <item>Simulations</item>
+        <item>Strategy</item>
+        <item>Sports</item>
+
+    </string-array>
+
+</resources>

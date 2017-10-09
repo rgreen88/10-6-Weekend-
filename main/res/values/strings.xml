@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeekendTwoProject</string>
+    <string name="view_pdf">View PDF</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pikachu_dialog">Pikachu Dialog</string>
+    <string name="pass">password</string>
+    <string name="user">username</string>
+    <string name="alert_2">alert 2</string>
+    <string name="alert_1">alert 1</string>
+    <string name="alert_3">alert 3</string>
+    <string name="notification_sent">Notification sent</string>
+    <string name="sent">Text sent</string>
+    <string name="phone_number">Enter your phone number</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="sendText">Send Text</string>
+</resources>

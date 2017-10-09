@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.rynel.weekendtwoproject.MainActivity">
+
+    <Button
+        android:id="@+id/buttonGoToPDF"
+        android:onClick="buttonPressed"
+        android:text="@string/view_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonGoToDialog"
+        android:onClick="buttonPressed"
+        android:text="@string/pikachu_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonAlertDialog1"
+        android:onClick="buttonPressed"
+        android:text="@string/alert_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonAlertDialog2"
+        android:onClick="buttonPressed"
+        android:text="@string/alert_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonAlertDialog3"
+        android:onClick="buttonPressed"
+        android:text="@string/alert_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSendNotification"
+        android:onClick="buttonPressed"
+        android:text="@string/notification_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        />
+
+    <Button
+        android:id="@+id/buttonSendTextM"
+        android:onClick="sendSms"
+        android:text="@string/sendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
