@@ -213,6 +213,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    //Could make separate class
     public void sendSms(EditText name, EditText phone) {
 
         phone = (EditText) findViewById(R.id.etNum);
@@ -222,7 +224,10 @@ public class MainActivity extends AppCompatActivity {
         SmsManager smsManager = SmsManager.getDefault();
 
         // Send a text based SMS
-        //smsManager.sendTextMessage(name, null, phone, null, null) <--- error
+        // getText() to retrieve input
+        // toString to display info as String
+        smsManager.sendTextMessage(name.getText().toString(),
+                null, phone.getText().toString(), null, null);
 
     }
 }
